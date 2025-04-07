@@ -1,0 +1,422 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100svh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    font-style: oblique;
+}
+
+button {
+    border-radius: 5%;
+    display: flex;
+    margin: auto;
+}
+
+.cabecalho>div.logo {
+
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho>div.nomesite {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemmenu {
+    padding: 10px;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemmenu:hover {
+    background-color: bisque;
+}
+
+.icon {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.imglogo {
+    width: 120px;
+}
+
+.corpo {
+    display: flex;
+    background-color: bisque;
+}
+
+.corpo>div.filtro {
+    background-color: bisque;
+    width: 160px;
+}
+
+.shopping {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 1000px;
+}
+
+
+
+.shopping>div.itemshopping {
+    width: 150px;
+    height: 230px;
+    background-color: rgb(233, 209, 180);
+    margin: 6px;
+}
+
+
+.imagemShopping {
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+
+}
+
+.descricaoShopping {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+
+span {
+    font-size: 16px;
+    font: normal;
+    margin: 5px;
+    text-align: center;
+}
+
+.valorShopping {
+    font-size: 18px;
+    font: normal;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+}
+
+.especificacaoShopping {
+    font-size: 14px;
+    font: normal;
+    margin: 5px;
+    text-align: center;
+}
+
+.addCarrinho {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin-left: 55px;
+}
+
+.addCarrinho :hover {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background-color: bisque;
+}
+
+.nomesite {
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+}
+
+.rodape {
+    display: flex;
+    min-height: 100px;
+    background-color: brown;
+    flex-direction: row;
+}
+
+.menuHamburguer {
+    display: none;
+    padding: 10px;
+
+}
+
+.menuHamburguer :hover {
+
+    background-color: bisque;
+}
+
+@media (max-width: 500px) {
+    .filtro {
+        display: none;
+    }
+
+    .menuHamburguer {
+        display: flex;
+
+    }
+}
+
+.subdivrodape {
+    display: flex;
+    height: 33.3%;
+    align-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.subdivrodapeRedes {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: 10px;
+}
+
+.iconesRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.iconesRedes :hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.rodapediv {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.imgcarrinho{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.carrinhoCompra :hover{
+    background-color: brown;
+}
+
+.corpoConteudo {
+    display: flex;
+    background-color: bisque;
+    align-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagemIndex{
+    width: 150px;
+    height: 150px;
+}
+.nossosProdutos{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+
+}
+.cartilha {
+    width: 200px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.titulo{
+    color: brown;
+    font-size: 20px;
+}
+.subtituloProdutos{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.nossasLojas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.iconlojas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px; 
+    text-align: center; 
+}
+
+.imagemProduto {
+    width: 90%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.anuncio {
+    margin: 5%;
+    border: 1px solid brown;   
+    height: 90%; 
+    text-align: center;
+}
+.valor{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: brown;
+    padding: 0px;
+}
+.spanvalor{
+    font-size: 14px;
+    color: rgb(82, 80, 80);
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.comprarProduto{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.comprarProduto:hover{
+    background-color: brown;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column; 
+    margin: 5%;
+    width: 90%; 
+     max-width: 500px;
+    height: 90%;
+}
+
+.campoFormulario {
+    text-align: left;
+}
+
+.corpoFormulario {
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnFormulario{
+    margin: 5px;
+    width: 100px;
+
+   
+}
+.itemCarrinho{
+    min-width: 600px;
+    max-width: 600px;
+    height: 100px;
+    background-color: rgb(233, 209, 180);
+    border: 1px solid black;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .corpoConteudo2 {
+        display: flex;
+        background-color: bisque;
+        align-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .pagamento{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .itemCarrinho{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .imgFinalizacaoCarrinho{
+        width: 80px;
+        height: 80px;
+        margin-left: 60px;
+        
+    
+    }
+    .imagemDoCarrinho{
+        width: 40%;
+    }
+    .descricaoItemCarrinho{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .buttonFinalizacao{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
